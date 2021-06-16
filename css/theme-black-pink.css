@@ -66,8 +66,8 @@ h4, .h4 {
   font-size: 1rem; }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-top: 1;
+  margin-bottom: .5rem; }
 
 small, .small {
   font-size: 0.875em; }
@@ -112,15 +112,6 @@ button,
   button:not(:disabled),
   [type="button"]:not(:disabled) {
     cursor: pointer; }
-
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
 
 progress {
   vertical-align: baseline; }
@@ -317,15 +308,6 @@ progress {
   flex: 1 1 auto;
   padding: 2rem 2rem; }
 
-.sc1{
-  padding-top: 1rem;
-  padding-bottom: 0.25rem; 
-}
-.sc2{
-  padding-top: 0.25rem;
-  padding-bottom: 1rem;
-}
-
 .card-title {
   margin-bottom: 0.5rem; }
 
@@ -498,6 +480,8 @@ progress {
 
 .bg-primary {
   background-color: #d63384 !important; }
+  .bg-white {
+    background-color: #ffff !important; }
 
 /* rtl:begin:remove */
 
@@ -593,3 +577,11 @@ progress {
 
 .blur {
   backdrop-filter: blur(4px); }
+
+.sc {
+  padding: 25px 15px;
+}
+
+.sc1{
+  margin-bottom: 7px;
+}
