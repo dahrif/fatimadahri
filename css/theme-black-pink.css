@@ -2,7 +2,7 @@
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
-    --bs-pink: #d63384;
+    --bs-pink: #D64997;
     --bs-red: #dc3545;
     --bs-orange: #fd7e14;
     --bs-yellow: #ffc107;
@@ -12,7 +12,7 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #d63384;
+    --bs-primary: #D64997;
     --bs-secondary: #ffffff;
     --bs-success: #28a745;
     --bs-info: #17a2b8;
@@ -102,7 +102,7 @@ small,
 }
 
 a {
-    color: #d63384;
+    color: #D64997;
     text-decoration: none;
 }
 
@@ -211,6 +211,10 @@ progress {
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
+    }
+    .illustration {
+        position: relative;
+        right: 130px;
     }
 }
 
@@ -334,8 +338,8 @@ progress {
 
 .btn-primary {
     color: #fff;
-    background-color: #d63384;
-    border-color: #d63384;
+    background-color: #D64997;
+    border-color: #D64997;
     box-shadow: unset;
 }
 
@@ -364,8 +368,8 @@ progress {
 
 .btn-primary:disabled {
     color: #fff;
-    background-color: #d63384;
-    border-color: #d63384;
+    background-color: #D64997;
+    border-color: #D64997;
 }
 
 .btn-dark {
@@ -482,7 +486,7 @@ progress {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #d63384;
+    background-color: #D64997;
     transition: width 0.6s ease;
 }
 
@@ -644,10 +648,11 @@ progress {
 
 .text-muted {
     color: #dee2e6 !important;
+    text-align: justify;
 }
 
 .bg-primary {
-    background-color: #d63384 !important;
+    background-color: #D64997 !important;
 }
 
 .bg-white {
