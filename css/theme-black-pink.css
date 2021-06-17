@@ -670,17 +670,19 @@
                                                                
                                                                .illustr {
                                                                    position: relative;
-                                                                   left: -120px;
+                                                                   left: -70px;
                                                                }
                                                                
                                                                @media (max-width:1150px) {
                                                                    .illustr {
                                                                        position: relative;
-                                                                       left: 0;
+                                                                       left: -48px;
+                                                                       width: 400px;
+                                                                       height: 400px;
                                                                    }
                                                                }
                                                                
-                                                               @media (max-width:963px) {
+                                                               @media (max-width:988px) {
                                                                    .illustr {
                                                                        position: relative;
                                                                        left: 0;
@@ -691,15 +693,15 @@
                                                                    .illustr {
                                                                        position: relative;
                                                                        left: -9px;
-                                                                       width: 450px;
-                                                                       height: 450px;
+                                                                       width: 400px;
+                                                                       height: 400px;
                                                                    }
                                                                }
                                                                
                                                                @media (max-width:497px) {
                                                                    .illustr {
                                                                        position: relative;
-                                                                       left: 30px;
+                                                                       left: 0;
                                                                    }
                                                                }
                                                                
@@ -707,8 +709,8 @@
                                                                    .illustr {
                                                                        position: relative;
                                                                        left: 0;
-                                                                       width: 350px;
-                                                                       height: 350px;
+                                                                       width: 300px;
+                                                                       height: 300px;
                                                                    }
                                                                }
                                                                
